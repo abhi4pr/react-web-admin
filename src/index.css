@@ -1,0 +1,518 @@
+/* sidebar style */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+  font-family: 'Roboto';
+}
+
+#sidebar-wrapper {
+    position: fixed;
+    left: 250px;
+    z-index: 1000;
+    overflow-y: auto;
+    margin-left: -250px;
+    height: 100%;
+    background:white;
+}
+
+#wrapper.toggled #sidebar-wrapper {
+    width: 300px;
+}
+
+#page-content-wrapper {
+    padding: 15px;
+    width: 100%;
+}
+
+#wrapper.toggled #page-content-wrapper {
+    position: absolute;
+    margin-right: -250px;
+}
+
+.sidebar-nav li {
+    display: flex;
+    margin: -10px 0px 0px 50px;
+}
+
+.sidebar-nav li a:hover {
+    background-color:#ffce48;
+    color:black;
+}
+
+/* sidebar style */
+
+.connimg{
+	border-radius:50%;
+	height:75px;
+	margin-left:50px;
+}
+
+.connMimg{
+	height:65px;
+	margin:20px 0px 20px 40px; 
+}
+
+.btmicn{
+	border-radius:50%;
+	border:1px solid blue;
+	height:70px;
+	padding:15px;
+	margin:20px;
+}
+.quespara{
+	font-size: 10px;
+    font-weight: bold;
+}
+.anspara{
+	font-size: 15px;
+    color: black;
+    font-weight: bold;
+}
+.unableanchor{
+	float:right;
+}
+.unableanchor a{
+	padding-right:20px;
+}
+
+.innclas{
+	background-color:white;
+	padding:18px;
+}
+
+.chtable{
+	float:right;
+	display:inline-flex;
+	margin-top:-5px;
+}
+
+#calllisting_filter{
+	display:none;
+}
+#calllisting_info{
+    display: none;
+}
+#calllisting_length{
+	margin:8px 0px 0px 0px;
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 768px) {
+.logosty{
+    padding:20px 0px 20px 0px;
+    width:50px;
+    height:100px;
+}
+.primg{
+	margin-top: -116px;
+	margin-left: 259px;
+	height: 40px;
+	width: 40px;
+	border: 1px solid red;
+	border-radius: 50%;
+}
+.lngchange1{
+	margin-top:-20px;
+	margin-left:70px;
+}
+#lang{
+	margin-top: -30px;
+    float: right;
+}
+.loginbiggirl {
+    width: 100%;
+}
+.prname{
+	float:right;
+	margin-top: -30px;
+}
+.openlog{
+	display:none;
+	position:fixed;
+	z-index:9999;
+	background-color:white;
+    right:15px;
+    width:65%;
+    top:70px;
+    box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.logpimg{
+	height:65px;
+	border-radius:50%;
+	border:1px solid yellow;
+	margin:0 0 0 50px;
+}
+#login-row{
+	box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	padding-top:50px;
+	margin-top:50px;
+	margin-bottom:30px;
+}
+.intprclass{
+	width: 100%;
+	height: 300px;
+	padding: 0px 0px 0px 0px;
+}
+#purposebox{
+	box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	padding:50px 28px 10px 28px;
+	margin-top:40px;
+	margin-bottom:51px;
+	width:100%;
+}
+.hdbtn{
+	background-color:white;
+	color:black;
+	margin-top:30px;
+}
+.selbtn{
+	margin:0px 40px 40px 40px;
+}
+.lasth{
+    color:blue;
+}
+.connimg{
+	margin:13px;
+}
+.connMimg{
+	margin:20px 20px 20px 20px; 
+}
+.btmicn{
+	margin:3px;
+}
+.grpicon{
+	/*margin-top:100px;*/
+	margin-left:-10px;
+}
+.chtable{
+	float:right;
+	display:inline-flex;
+	margin-bottom:40px;
+}
+}
+
+/* 1920 screen start */
+@media only screen and (min-device-width : 1680px) and (max-device-width : 1920px) {
+.logosty{
+    padding:20px 0px 20px 0px;
+    width:50px;
+    height:100px;
+}
+
+.primg{
+	margin-top:30px;
+	float:right;
+	height:40px;
+	width:40px;
+	border:1px solid red;
+	border-radius:50%;
+	margin-right:-25px;
+}
+
+.prname{
+	margin-left:10px;
+	margin-top:43px;
+}
+
+.openlog{
+	display:none;
+	position:fixed;
+	z-index:9999;
+	background-color:white;
+    right:160px;
+    width:15%;
+    top:70px;
+    box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.logpimg{
+	height:65px;
+	border-radius:50%;
+	border:1px solid yellow;
+	margin:0 0 0 75px;
+}
+
+#lang{
+	background-color:#2760a3;
+	color:white;
+	float:right;
+	margin-top:-34px;
+}
+
+.lngchange1{
+	color:white;
+	padding:5px;
+	margin-left:180px;
+}
+
+.loginbiggirl{
+	width:100%;
+	height:auto;
+	padding:100px 70px 110px 0px;
+}
+
+.textongirl{
+	position:absolute;
+	top:105px;
+	left:40px;
+}
+
+#login-row{
+	box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	padding-top:50px;
+	margin-top:105px;
+	margin-bottom:30px;
+}
+
+.formstarted{
+	margin-top:0px;
+}
+
+.logintxt{
+	margin-top:25px;
+	margin-bottom:25px;
+}
+
+.form-group .loginHeight{
+	height:45px;
+}
+
+.lastpara{
+	margin-top:65px;
+	font-size:15px;
+	margin-bottom:50px;
+}
+
+.loginsubmit{
+	background-color:#ff9d00;
+	color:black;
+	font-weight:bold;
+	height:45px;
+}
+
+.purposetxt{
+	margin-top:65px;
+}
+
+.intprclass{
+	width: 85%;
+    height: 450px;
+}
+
+.hdbtn{
+	background-color:white;
+	color:black;
+	margin-top:30px;
+	height:55px;
+}
+
+.purposeh{
+	font-size:34px;
+}
+
+.purposep{
+	margin-top:25px;
+	margin-bottom:25px;
+	font-size:20px;
+}
+
+.purposep2{
+	margin-top:35px;
+	font-size:20px;
+	margin-bottom:25px;
+}
+
+#purposebox{
+	box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	padding:50px 28px 0px 28px;
+	margin-top:40px;
+	width:100%;
+}
+
+.purposebtn{
+	background-color:#ff9d00;
+	color:black;
+	font-weight:bold;
+	float:right;
+	margin: 40px 0px 50px;
+	height: 50px;
+    width: 85px;
+}
+
+.purposehr{
+	border-top:2px solid black;
+	margin-top:120px;
+}
+
+.selbtn{
+	margin:0px 20px 35px 50px;
+	background-color:transparent;
+}
+.selbtn:hover {
+  border:none;
+  background-color:transparent;
+}
+
+.startcallhr{
+	border-top:2px solid black;
+	margin-top:45px;
+}
+
+.lasth{
+	font-weight:bold;
+	text-align:right;
+	color:blue;
+	margin-bottom:40px;
+    margin-top: 40px;
+    font-size:17px;
+}
+}
+/* 1920 sreen end */
+
+@media only screen and (min-device-width : 1080px) and (max-device-width : 1440px) {
+.logosty{
+    padding:20px 0px 20px 0px;
+    width:50px;
+    height:85px;
+}
+.primg{
+	margin-top:20px;
+	float:right;
+	height:40px;
+	width:40px;
+	border:1px solid red;
+	border-radius:50%;
+	margin-right:-5px;
+}
+.prname{
+	margin-left:-15px;
+	margin-top:33px;
+}
+.openlog{
+	display:none;
+	position:fixed;
+	z-index:9999;
+	background-color:white;
+    right:150px;
+    width:20%;
+    top:70px;
+    box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.logpimg{
+	height:65px;
+	border-radius:50%;
+	border:1px solid yellow;
+	margin:0 0 0 60px;
+}
+#lang{
+	background-color:#2760a3;
+	color:white;
+	float:right;
+	margin-top:-34px;
+}
+.lngchange1{
+	color:white;
+	padding:5px;
+	margin-left:40px;
+}
+.loginbiggirl{
+	width:100%;
+	height:500px;
+	padding:40px 20px 40px 0px;
+}
+
+.textongirl{
+	position:absolute;
+	top:48px;
+	left:40px;
+}
+#login-row{
+	box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	padding-top:30px;
+	margin-top:35px;
+	margin-bottom:30px;
+}
+.formstarted{
+	margin-top:-10px;
+}
+.logintxt{
+	margin-top:10px;
+	margin-bottom:15px;
+}
+.form-group .loginHeight{
+	height:33px;
+}
+.lastpara{
+	margin-top:15px;
+	font-size:10px;
+	margin-bottom:5px;
+}
+.loginsubmit{
+	height:33px;
+}
+.purposetxt{
+	margin-top:0px;
+}
+.intprclass{
+	width: 90%;
+	height: 400px;
+	padding: 20px 40px 80px 0px;
+}
+.hdbtn{
+	background-color:white;
+	color:black;
+	margin-top:-100px;
+	height:35px;
+}
+.purposeh{
+	font-size:23px;
+}
+.purposep{
+	margin-top:0px;
+	margin-bottom:0px;
+	font-size:13px;
+}
+.purposep2{
+	margin-top:25px;
+	font-size:11px;
+	margin-bottom:10px;
+}
+#purposebox{
+	box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	padding:40px 0px 0px 0px;
+	margin-top:40px;
+	width:320px;
+}
+.purposebtn{
+	background-color:#ff9d00;
+	color:black;
+	font-weight:bold;
+	float:right;
+	margin: 0px 0px 35px;
+	height: 35px;
+    width: 75px;
+}
+.purposehr{
+	border-top:1px solid black;
+	margin-top:0px;
+}
+.selbtn{
+	margin:0px 10px 15px 10px;
+	background-color:transparent;
+}
+.selbtn:hover {
+  border:none;
+  background-color:transparent;
+}
+.startcallhr{
+	border-top:1px solid black;
+	margin-top:10px;
+}
+.lasth{
+	font-weight:bold;
+	text-align:right;
+	color:blue;
+	margin-bottom:15px;
+	margin-top:0px;
+	font-size:10px;
+}
+}

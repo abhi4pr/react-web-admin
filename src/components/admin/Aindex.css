@@ -1,0 +1,68 @@
+/* sidebar style */
+
+#sidebar-wrapper1 {
+    position: fixed;
+    left: 250px;
+    z-index: 1000;
+    overflow-y: auto;
+    margin-left: -250px;
+    height: 100%;
+    background:white;
+}
+
+#wrapper1.toggled1 #sidebar-wrapper1 {
+    width: 300px;
+}
+
+#page-content-wrapper {
+    padding: 15px;
+    width: 100%;
+}
+
+#wrapper1.toggled1 #page-content-wrapper {
+    position: absolute;
+    margin-right: -250px;
+}
+
+.sidebar-nav1 li {
+    list-style: none;
+    padding: 5px;
+    margin:0px 0px 0px 40px;
+}
+
+.sidebar-nav1 li a:hover {
+    background-color:#ffce48;
+    color:black;
+    text-decoration:none;
+}
+
+/* sidebar style */
+
+#filtrr{
+	margin:10px;
+	float:right;
+}
+
+.md8style{
+    height:1px;
+}
+
+.prgstyle{
+    margin-top:14px;
+    height:6px;
+}
+
+#hislisting_info{
+    display:none;
+}
+#hislisting_filter{
+    display:none;
+}
+#hislisting_length{
+    margin:8px 0px 0px 0px;
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 600px) {
+
+}
